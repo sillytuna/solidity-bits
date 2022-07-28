@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "node": "hardhat node",
+    "test": "hardhat test"
+  },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",
     "@nomiclabs/hardhat-truffle5": "^2.0.5",
@@ -8,7 +12,8 @@
     "chai": "^4.2.0",
     "ethereum-waffle": "^3.0.0",
     "ethers": "^5.0.0",
-    "hardhat": "^2.9.2"
+    "hardhat": "^2.9.2",
+    "hardhat-gas-reporter": "^1.0.7"
   },
   "name": "solidity-bits",
   "version": "0.2.0",
